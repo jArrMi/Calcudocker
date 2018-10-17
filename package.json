@@ -1,0 +1,31 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "A sample calculator app",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dartharrmi/calcudocker.git"
+  },
+  "keywords": [
+    "docker",
+    "nodejs"
+  ],
+  "author": "Miguel Arroyo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dartharrmi/calcudocker/issues"
+  },
+  "homepage": "https://github.com/dartharrmi/calcudocker#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
