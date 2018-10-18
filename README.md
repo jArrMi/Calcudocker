@@ -1,3 +1,8 @@
+### Clone de image
+```
+git clone /your/path/for/saving
+```
+
 ### Building the image
 After you have cloned the image, navigate to the folder where you just put it and run the following command:
 ```
@@ -33,3 +38,10 @@ There are several ways to check that the server running within the image is work
 
 And you can also use a client, like Postman:
 ![Postman](https://github.com/dartharrmi/Calcudocker/blob/master/images/aes_calculator_4.png  "Postman")
+
+### Calcudocker in DockerHub
+A more convenient and straightforward way to run the image is pulling directly from DockerHub 🤓, just run this command:
+```
+docker run -p 49160:8000 -d dartharrmi/calcudocker:v0.0.1
+```
+Again, check the server running with methods described above 🙃.
