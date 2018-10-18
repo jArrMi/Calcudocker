@@ -1,6 +1,6 @@
-### Clone de image
+### Clone the image
 ```
-git clone /your/path/for/saving
+git clone https://github.com/dartharrmi/Calcudocker.git /your/path/for/saving
 ```
 
 ### Building the image
