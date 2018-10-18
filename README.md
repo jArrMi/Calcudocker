@@ -45,4 +45,4 @@ A more convenient and straightforward way to run the image is pulling directly f
 ```
 docker run -p 49160:8000 -d dartharrmi/calcudocker:v0.0.1
 ```
-Again, check the server running with methods described above 🙃.
+Again, check the server is running with methods described above 🙃.
