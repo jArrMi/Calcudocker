@@ -27,13 +27,14 @@ which should produce an output like this:
 ![docker ps](https://github.com/dartharrmi/Calcudocker/blob/master/images/aes_calculator_2.png  "Docker image running")
 
 ### Testing
-The API exposes 4 methods, each of them performs one of the basic arithmethic operations, for all the method pass your numbers as path parameters, is good to notice that only the <strong>division</strong> needs two numbers:
+The API exposes 4 methods, each of them performs each one of the basic arithmetic operations, just pass your numbers as path parameters. Is good to notice that <strong>only</strong> the <strong>division</strong> needs two numbers:
+
 1. <strong>Addition: </strong> 127.0.0.1:49160/\_add/_firstNumber_/_secondNumber_/_thirdNumber_/_andSoOn_
 1. <strong>Subtraction: </strong> 127.0.0.1:49160/\_substract/_firstNumber_/_secondNumber_/_thirdNumber_/_andSoOn_. Based on your inputs, it might produce a negative output.
 1. <strong>Multiplication: </strong> 127.0.0.1:49160/\_multiply/_firstNumber_/_secondNumber_/_thirdNumber_/_andSoOn_
 1. <strong>Division: </strong> 127.0.0.1:49160/\_division/_firstNumber_/_secondNumber_
 
-There are several ways to check that the server running within the image is working, one might be by using the good-old-one `curl` command, run this and you should get a simmilar output:
+There are several ways to check that the server running within the image is working, one might be by using the `curl` command, run this and you should get a similar output:
 ![Addition](https://github.com/dartharrmi/Calcudocker/blob/master/images/aes_calculator_3.png  "Addition")
 
 And you can also use a client, like Postman:
